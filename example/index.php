@@ -33,13 +33,13 @@
   <body>
 
     <?php
-      require 'instagram.class.php';
+      require '../instagram.class.php';
       
-      // Setup class
+ // Setup class
       $instagram = new Instagram(array(
-        'apiKey'      => 'YOUR_APP_KEY',
-        'apiSecret'   => 'YOUR_APP_SECRET',
-        'apiCallback' => 'YOUR_APP_CALLBACK' // must point to success.php
+        'apiKey'      => '08dc3c1f103c4b9693aab4c81a4d9868',
+        'apiSecret'   => 'c93445ca19034311950484d5ad744f7e',
+        'apiCallback' => 'http://pantyshots.pagodabox.com/example/success.php' // must point to success.php
       ));
       
       // Display the login button
